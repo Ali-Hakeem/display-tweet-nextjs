@@ -34,13 +34,10 @@ export default function TwitGenerator() {
     const [bookmarks, setBookmarks] = useState('200')
   
   return (
-    <div className="relative z-10 text-white mx-6 flex max-w-[1250px] w-full min-h-[700px] h-full">
-        <Card className="flex-1 flex flex-col w-full h-auto mx-auto bg-white backdrop-blur-md border-2 rounded-xl">
-            <CardHeader>
-                <CardTitle className="text-2xl text-center font-black">Display Tweet Generator</CardTitle>
-            </CardHeader>
+    <div className="relative z-10 text-white mx-6 min-h-[700px] h-full">
+        <Card className="flex-1 flex h-auto mx-auto bg-white backdrop-blur-md border-2 rounded-xl">
             <CardContent className="flex-1">
-                <div className="h-full flex flex-col md:flex-row gap-8">
+                <div className="h-full space-y-8">
                     <div className="flex-2 space-y-2">
                         <Label>Name : </Label>
                         <Input
