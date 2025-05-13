@@ -244,7 +244,7 @@ export default function TwitGenerator() {
                             <hr className="ml-[-43px] border-gray-500/60 text-xs mt-2 mb-2"/>
                             <div className="flex space-x-1">
                                 {/* summary */}
-                                <span className="font-semibold ml-[-43px] text-white text-xs">{retweet ? retweet : '\u00A0\u00A0'} <span className="text-gray-500 text-xs mr-2"> Repost</span></span>
+                                <span className="font-semibold ml-[-43px] text-white text-xs">{retweet ? retweet : '\u00A0\u00A0'} <span className="text-gray-500 text-xs mr-2"> Reposts</span></span>
                                 <span className="font-semibold flex text-white text-xs">{quotes} <span className="ml-1 text-gray-500 text-xs mr-2"> Quotes</span></span>
                                 <span className="font-semibold flex text-white text-xs"><span>{like ? like : '\u00A0\u00A0'}</span> <span className="ml-1 text-gray-500 text-xs"> Likes</span></span>
                             </div>
